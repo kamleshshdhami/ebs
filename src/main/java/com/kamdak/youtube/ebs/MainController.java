@@ -8,7 +8,7 @@ public class MainController {
 	
 	@GetMapping("/welcome")
 	public String welcomePage(){
-		return "Welcome to KAMDAK page! This is the new version of our application";
+		return "Welcome to KAMDAK page! This is the new version of our application. AWS Code piple line is integrated";
 	}
 
 }
